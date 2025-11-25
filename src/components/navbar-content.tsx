@@ -47,6 +47,35 @@ const sidebarItems: SidebarItem[] = [
       },
     ],
   },
+  {
+    title: "WES",
+    items: [
+      {
+        title: "WES Library Reception",
+        url: "/wes/library-reception",
+      },
+      {
+        title: "WES Library Job",
+        url: "/wes/library-job",
+      },
+      {
+        title: "WES Exome Reception",
+        url: "/wes/exome-reception",
+      },
+      {
+        title: "WES Exome Job",
+        url: "/wes/exome-job",
+      },
+      {
+        title: "WES Instrument Reception",
+        url: "/wes/instrument-reception",
+      },
+      {
+        title: "WES Instrument Job",
+        url: "/wes/instrument-job",
+      },
+    ],
+  },
 ];
 
 export function NavbarContent() {
